@@ -1,0 +1,37 @@
+{
+    "name": "html2htpy",
+    "displayName": "html2htpy",
+    "description": "A vscode extension to convert html to htpy",
+    "version": "0.0.1",
+    "publisher": "dunderrrrrr",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dunderrrrrr/vscode-html2htpy"
+      },
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "activationEvents": [],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.html2htpy",
+          "title": "html2htpy: Convert to htpy"
+        }
+      ],
+    "configuration": {
+        "type": "object",
+        "properties": {
+            "html2htpy.path": {
+            "type": "string",
+            "default": "html2htpy",
+            "description": "Path to html2htpy executable."
+            }
+        }
+        }
+    },
+    "devDependencies": {
+      "vscode": "^1.0.0"
+    }
+  }
