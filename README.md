@@ -8,6 +8,8 @@ Install extension from [vscode marketplace](https://marketplace.visualstudio.com
 
 Select the HTML code in the editor, open vscode command palette and search for html2htpy and the extension will replace the selected text with the generated htpy code.
 
+![demo](https://i.imgur.com/AOx63sx.gif)
+
 # Settings
 
 This extention expects `html2htpy` to be in your `$PATH` environment variable. If not, you can specify the full path to the executable in the `html2htpy.path` vscode setting.
