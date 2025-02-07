@@ -4,7 +4,7 @@ This VSCode extension allows you to convert selected HTML text into [htpy](https
 
 # Usage
 
-Install extension from vscode marketplace.
+Install extension from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=dunderrrrrr.html2htpy).
 
 Select the HTML code in the editor, open vscode command palette and search for html2htpy and the extension will replace the selected text with the generated htpy code.
 
@@ -19,3 +19,8 @@ Add this to your `settings.json`:
   "html2htpy.path": "/path/to/html2htpy"
 }
 ```
+
+# Links
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dunderrrrrr.html2htpy)
+- [htpy](https://htpy.dev/)
