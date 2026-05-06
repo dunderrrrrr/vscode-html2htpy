@@ -2,7 +2,7 @@
     "name": "html2htpy",
     "displayName": "html2htpy",
     "description": "A vscode extension to convert html to htpy",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "dunderrrrrr",
     "icon": "img/icon.png",
     "repository": {

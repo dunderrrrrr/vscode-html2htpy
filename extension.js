@@ -32,7 +32,7 @@ function activate(context) {
                 return;
             }
 
-            exec(`${html2htpyPath} ${tempFilePath}`, (error, stdout, stderr) => {
+            exec(`${html2htpyPath} ${tempFilePath} --imports h`, (error, stdout, stderr) => {
                 if (error) {
                     vscode.window.showErrorMessage(`Error executing html2htpy: ${error.message}`);
                     return;
